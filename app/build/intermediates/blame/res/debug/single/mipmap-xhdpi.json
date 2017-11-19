@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "D:\\android project\\Consol-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher_round.png",
+        "source": "D:\\android project\\Consol-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\android project\\Consol-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_close.png",
+        "source": "D:\\android project\\Consol-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_close.png"
+    },
+    {
+        "merged": "D:\\PI\\New folder\\Consol-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\user_icon2.png",
+        "source": "D:\\PI\\New folder\\Consol-master\\app\\src\\main\\res\\mipmap-xhdpi\\user_icon2.png"
+    },
+    {
+        "merged": "D:\\android project\\Consol-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\delete.png",
+        "source": "D:\\android project\\Consol-master\\app\\src\\main\\res\\mipmap-xhdpi\\delete.png"
+    },
+    {
+        "merged": "D:\\android project\\Consol-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\alarm.png",
+        "source": "D:\\android project\\Consol-master\\app\\src\\main\\res\\mipmap-xhdpi\\alarm.png"
+    },
+    {
+        "merged": "D:\\PI\\New folder\\Consol-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\delete.png",
+        "source": "D:\\PI\\New folder\\Consol-master\\app\\src\\main\\res\\mipmap-xhdpi\\delete.png"
+    },
+    {
+        "merged": "D:\\android project\\Consol-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "D:\\android project\\Consol-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\PI\\New folder\\Consol-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_close.png",
+        "source": "D:\\PI\\New folder\\Consol-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_close.png"
+    },
+    {
+        "merged": "D:\\PI\\New folder\\Consol-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher_round.png",
+        "source": "D:\\PI\\New folder\\Consol-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\PI\\New folder\\Consol-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\alarm.png",
+        "source": "D:\\PI\\New folder\\Consol-master\\app\\src\\main\\res\\mipmap-xhdpi\\alarm.png"
+    },
+    {
+        "merged": "D:\\PI\\New folder\\Consol-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "D:\\PI\\New folder\\Consol-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\android project\\Consol-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\user_icon2.png",
+        "source": "D:\\android project\\Consol-master\\app\\src\\main\\res\\mipmap-xhdpi\\user_icon2.png"
+    }
+]

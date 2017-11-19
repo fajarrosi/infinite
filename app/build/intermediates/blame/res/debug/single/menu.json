@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "D:\\android project\\Consol-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_alarm.xml",
+        "source": "D:\\android project\\Consol-master\\app\\src\\main\\res\\menu\\menu_alarm.xml"
+    },
+    {
+        "merged": "D:\\android project\\Consol-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\media_action.xml",
+        "source": "C:\\Users\\WIN 8\\.android\\build-cache\\291995b64a34e12e6d422d73f7969a8b3f37f8dc\\output\\res\\menu\\media_action.xml"
+    },
+    {
+        "merged": "D:\\PI\\New folder\\Consol-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\comment_action.xml",
+        "source": "C:\\Users\\WIN 8\\.android\\build-cache\\291995b64a34e12e6d422d73f7969a8b3f37f8dc\\output\\res\\menu\\comment_action.xml"
+    },
+    {
+        "merged": "D:\\android project\\Consol-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_tab.xml",
+        "source": "D:\\android project\\Consol-master\\app\\src\\main\\res\\menu\\menu_tab.xml"
+    },
+    {
+        "merged": "D:\\PI\\New folder\\Consol-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_alarm.xml",
+        "source": "D:\\PI\\New folder\\Consol-master\\app\\src\\main\\res\\menu\\menu_alarm.xml"
+    },
+    {
+        "merged": "D:\\PI\\New folder\\Consol-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_tabs.xml",
+        "source": "D:\\PI\\New folder\\Consol-master\\app\\src\\main\\res\\menu\\menu_tabs.xml"
+    },
+    {
+        "merged": "D:\\PI\\New folder\\Consol-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_default.xml",
+        "source": "D:\\PI\\New folder\\Consol-master\\app\\src\\main\\res\\menu\\menu_default.xml"
+    },
+    {
+        "merged": "D:\\android project\\Consol-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_tabs.xml",
+        "source": "D:\\android project\\Consol-master\\app\\src\\main\\res\\menu\\menu_tabs.xml"
+    },
+    {
+        "merged": "D:\\PI\\New folder\\Consol-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\file_picker.xml",
+        "source": "C:\\Users\\WIN 8\\.android\\build-cache\\291995b64a34e12e6d422d73f7969a8b3f37f8dc\\output\\res\\menu\\file_picker.xml"
+    },
+    {
+        "merged": "D:\\android project\\Consol-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_default.xml",
+        "source": "D:\\android project\\Consol-master\\app\\src\\main\\res\\menu\\menu_default.xml"
+    },
+    {
+        "merged": "D:\\android project\\Consol-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\file_picker.xml",
+        "source": "C:\\Users\\WIN 8\\.android\\build-cache\\291995b64a34e12e6d422d73f7969a8b3f37f8dc\\output\\res\\menu\\file_picker.xml"
+    },
+    {
+        "merged": "D:\\PI\\New folder\\Consol-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_tab.xml",
+        "source": "D:\\PI\\New folder\\Consol-master\\app\\src\\main\\res\\menu\\menu_tab.xml"
+    },
+    {
+        "merged": "D:\\android project\\Consol-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\comment_action.xml",
+        "source": "C:\\Users\\WIN 8\\.android\\build-cache\\291995b64a34e12e6d422d73f7969a8b3f37f8dc\\output\\res\\menu\\comment_action.xml"
+    },
+    {
+        "merged": "D:\\PI\\New folder\\Consol-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\media_action.xml",
+        "source": "C:\\Users\\WIN 8\\.android\\build-cache\\291995b64a34e12e6d422d73f7969a8b3f37f8dc\\output\\res\\menu\\media_action.xml"
+    }
+]

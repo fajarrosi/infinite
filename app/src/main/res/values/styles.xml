@@ -1,20 +1,31 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/blueSoft</item>
+        <item name="colorPrimaryDark">@color/darkBlue</item>
+        <item name="android:textColor">@color/teksUtama</item>
+        <item name="colorAccent">@color/colorDull</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="login" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/login</item>
     </style>
 
+    <color name="darkBlue">#1976D2</color>
+    <color name="login">#4b9cb5</color>
+    <color name="blueSoft">#2196F3</color>
+    <color name="teksUtama">#000000</color>
+    <color name="yellow">#ffeb3b</color>
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>

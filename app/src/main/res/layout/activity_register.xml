@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5fb0c9"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+    <ImageView
+        android:id="@+id/header_cover_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:background="@drawable/pattern1"
+        android:layout_below="@+id/toolbar"/>
+    <RelativeLayout
+        android:id="@+id/layout_register"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="#80000000"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/register_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:gravity="center_horizontal"
+                android:text="Register Account"
+                android:textColor="#fff"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:hint="Name"
+                    android:id="@+id/et_name"
+                    android:textColorHint="@color/colorWhite"
+                    android:drawableRight="@drawable/ic_account_circle_black_24dp"
+                    android:inputType="textPersonName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorWhite"
+                    android:drawableTint="@color/colorWhite"
+                    android:padding="10dp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:hint="Email"
+                    android:id="@+id/et_email_reg"
+                    android:textColorHint="@color/colorWhite"
+                    android:drawableRight="@drawable/ic_email_black_24dp"
+                    android:inputType="textEmailAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorWhite"
+                    android:drawableTint="@color/colorWhite"
+                    android:padding="10dp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:hint="Majors"
+                    android:textColorHint="@color/colorWhite"
+                    android:id="@+id/et_prodi"
+                    android:inputType="textPersonName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/ic_stars_black_24dp"
+                    android:textColor="@color/colorWhite"
+                    android:drawableTint="@color/colorWhite"
+                    android:padding="10dp"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:hint="Password"
+                    android:id="@+id/et_password_reg"
+                    android:textColorHint="@color/colorWhite"
+                    android:drawableRight="@drawable/ic_vpn_key_black_24dp"
+                    android:inputType="textPassword"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/colorWhite"
+                    android:drawableTint="@color/colorWhite"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Spinner
+                    android:id="@+id/et_status"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/colorWhite"
+                    android:drawableTint="@color/colorWhite"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_register"
+                android:text="Register"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tv_login"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorWhite"
+                android:drawableTint="@color/colorWhite"
+                android:text="Already Registered ? Login Now !"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
+</ScrollView>

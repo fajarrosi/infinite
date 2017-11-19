@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.fajarir.consol">
+    package="com.example.fajarir.Konsol">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name=".SampleApps"
+        android:name="com.example.fajarir.Konsol.SampleApps"
         android:allowBackup="true"
+        android:label="Konsol"
         android:icon="@mipmap/ic_launcher"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <meta-data
-            android:name="com.facebook.sdk.ApplicationId"
-            android:value="@string/facebook_app_id" />
 
-        <activity android:name=".MainActivity">
+        <activity
+            android:name="com.example.fajarir.Konsol.splash_screen"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,13 +23,55 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.facebook.FacebookActivity"
-            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-            android:label="@string/app_name" />
+            android:name="com.example.fajarir.Konsol.slider_intro"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name="com.example.fajarir.Konsol.Custom_chat" />
+        <activity android:name="com.example.fajarir.Konsol.MainActivity"
+            android:theme="@style/login">
+            <intent-filter>
+                <action android:name="com.example.fajarir.Konsol.dosen.MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity
-            android:name=".TabActivity"
+            android:name="com.example.fajarir.Konsol.TabActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name="com.example.fajarir.Konsol.dosen.DosenActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name="com.example.fajarir.Konsol.mahasiswa.MahasiswaActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name="com.example.fajarir.Konsol.About"
+            android:label="@string/action_about">
+            <intent-filter>
+                <action android:name="com.example.fajarir.Konsol.About" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.fajarir.Konsol.reminder.AddAlarm"
+            android:label="alarm">
+            <intent-filter>
+                <action android:name="com.example.fajarir.Konsol.reminder.Addalarm" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="com.example.fajarir.Konsol.reminder.AlarmNotif" />
+
+        <activity
+            android:name="com.example.fajarir.Konsol.Register"
+            android:theme="@style/login"></activity>
+        <activity android:name="com.example.fajarir.Konsol.UserProfile">
+
         </activity>
     </application>
 

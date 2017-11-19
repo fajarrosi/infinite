@@ -1,11 +1,10 @@
 apply plugin: 'com.android.application'
 apply plugin: 'com.jakewharton.butterknife'
-apply plugin: 'me.tatarka.retrolambda' 
 android {
     compileSdkVersion 25
     buildToolsVersion "26.0.0"
     defaultConfig {
-        applicationId "com.example.fajarir.consol"
+        applicationId "com.example.fajarir.Konsol"
         minSdkVersion 16
         targetSdkVersion 25
         versionCode 1
@@ -18,10 +17,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    compileOptions {
-        targetCompatibility 1.8
-        sourceCompatibility 1.8
-    }
 }
 
 dependencies {
@@ -30,19 +25,18 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
         exclude group: 'com.google.code.findbugs'
     })
+
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
-
-    //recyclerview
+    compile 'jp.wasabeef:recyclerview-animators:2.2.3'
     compile 'com.android.support:recyclerview-v7:25.1.1'
-    //image
     compile 'de.hdodenhof:circleimageview:2.1.0'
-    //Butterknife
     compile 'com.jakewharton:butterknife:8.6.0'
-    //qiscus
     compile 'com.qiscus.sdk:chat:2.7.0'
+    compile 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.1'
     compile 'com.android.support:support-v4:25.3.1'
     compile 'com.google.code.gson:gson:2.6.2'
+    compile 'com.vanniktech:emoji-one:0.5.0'
     testCompile 'junit:junit:4.12'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
 }
